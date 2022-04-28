@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Książka_Adresowa.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/weather/")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
