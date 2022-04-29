@@ -10,4 +10,9 @@ public class AddressBookRecord
     public string? Street { get; set; }
     public int? HouseNumber { get; set; }
     public int? ApartmentNumber { get; set; }
+    
+    public override string ToString()
+    {
+        return $"{Name}, {Surname}, {PhoneNumber}, {Email}, {City}, {Street}, {HouseNumber}, {ApartmentNumber}";
+    }
 }
